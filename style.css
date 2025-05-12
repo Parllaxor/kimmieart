@@ -62,9 +62,9 @@ header{
 
 #portfoliohero{
     grid-column: 1 / -1;
-    grid-row: 2 / 6;
+    grid-row: 2 / 7;
 
-    background-image: url(Images/moth.jpg);
+    background-image: url(Images/WomanPlate.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -334,7 +334,7 @@ nav ul li{
 }
 
 #project1 img{
-    height: auto;
+    height: 400px;
 }
 
 #project2{
@@ -356,7 +356,7 @@ nav ul li{
 }
 
 #project2 img{
-    height: auto;
+    height: 400px;
 }
 
 #project3{
@@ -378,7 +378,7 @@ nav ul li{
 }
 
 #project3 img{
-    height: auto;
+    height: 400px;
 }
 
 #project4{
@@ -400,7 +400,7 @@ nav ul li{
 }
 
 #project4 img{
-    height: auto;
+    height: 350px;
 }
 
 #project5{
@@ -422,10 +422,32 @@ nav ul li{
 }
 
 #project5 img{
-    height: auto;
+    height: 350px;
 }
 
 #project6{
+    grid-column: 2 / 6;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#project6 img{
+    height: 350px;
+}
+
+#project7{
     grid-column: 6 / 8;
     grid-row: 5 / 6;
 
@@ -443,8 +465,118 @@ nav ul li{
     margin-bottom: 30px;
 }
 
-#project6 img{
-    height: auto;
+#project7 img{
+    height: 350px;
+}
+
+#project8{
+    grid-column: 6 / 8;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#project8 img{
+    height: 350px;
+}
+
+#forsale1{
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale1 img{
+    height: 350px;
+}
+
+#forsale2{
+    grid-column: 4 / 6;
+    grid-row: 5 / 6;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale2 img{
+    height: 350px;
+}
+
+#forsale3{
+    grid-column: 6 / 8;
+    grid-row: 5 / 6;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale3 img{
+    height: 350px;
+}
+
+#forsale4{
+    grid-column: 6 / 8;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale4 img{
+    height: 350px;
 }
 
 main{
