@@ -74,6 +74,20 @@ header{
     border-color: #292F3B;
 }
 
+#supporthero{
+    grid-column: 1 / -1;
+    grid-row: 2 / 7;
+
+    background-image: url(Images/FairyWoman.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+}
+
 nav{
     grid-row: 2 / 3;
     grid-column: 2 / -2;
@@ -577,6 +591,59 @@ nav ul li{
 
 #forsale4 img{
     height: 350px;
+}
+
+#supportFRQ{
+    grid-column: 5 / -2;
+    grid-row: 3 / 4;
+
+    background-color: #84997E;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#supportFRQ h2{
+    color: #000;
+    font-size: larger;
+    font-weight: 600;
+
+    text-align: left;
+
+    border-bottom: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#supportFRQ h3{
+    color: #000;
+    font-size: medium;
+    font-weight: 400;
+
+    text-align: left;
+}
+
+#supportFRQ p{
+    color: #444444;
+    font-size: small;
+    font-weight: 200;
+
+    text-align: left;
+}
+
+#supportFRQ a{
+    color: #444444;
+}
+
+#supportFRQ a:hover{
+    color: #FFF;
+    transition: 0.4s ease-in;
 }
 
 main{
