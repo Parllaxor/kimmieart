@@ -524,7 +524,20 @@ nav ul li{
 }
 
 #forsale1 img{
-    height: 350px;
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale1 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale1 button:hover{
+    background-color: #444444;
 }
 
 #forsale2{
@@ -546,7 +559,20 @@ nav ul li{
 }
 
 #forsale2 img{
-    height: 350px;
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale2 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale2 button:hover{
+    background-color: #444444;
 }
 
 #forsale3{
@@ -568,11 +594,24 @@ nav ul li{
 }
 
 #forsale3 img{
-    height: 350px;
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale3 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale3 button:hover{
+    background-color: #444444;
 }
 
 #forsale4{
-    grid-column: 6 / 8;
+    grid-column: 2 / 4;
     grid-row: 6 / 7;
 
     background-color: #84997E;
@@ -590,7 +629,90 @@ nav ul li{
 }
 
 #forsale4 img{
-    height: 350px;
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale4 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale4 button:hover{
+    background-color: #444444;
+}
+
+#forsale5{
+    grid-column: 4 / 6;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale5 img{
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale5 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale5 button:hover{
+    background-color: #444444;
+}
+
+#forsale6{
+    grid-column: 6 / 8;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#forsale6 img{
+    height: 250px;
+
+    padding-bottom: 5px;
+}
+
+#forsale6 button{
+    z-index: 10;
+
+    background-color: #7D89A0;
+    transition: background-color ease-in 0.3s 
+}
+
+#forsale6 button:hover{
+    background-color: #444444;
 }
 
 #supportFRQ{
@@ -644,6 +766,69 @@ nav ul li{
 #supportFRQ a:hover{
     color: #FFF;
     transition: 0.4s ease-in;
+}
+
+#technical_support{
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+
+    background-color: #84997E;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#technical_support h2{
+    color: #000;
+    font-size: larger;
+    font-weight: 600;
+
+    text-align: left;
+
+    border-bottom: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#technical_support h3{
+    color: #000;
+    font-size: medium;
+    font-weight: 400;
+
+    text-align: left;
+}
+
+#technical_support p{
+    color: #444444;
+    font-size: small;
+    font-weight: 200;
+
+    text-align: left;
+}
+
+#technical_support a{
+    color: #444444;
+}
+
+#technical_support a:hover{
+    color: #FFF;
+    transition: 0.4s ease-in;
+}
+
+#technical_support h4{
+    font-size: small;
+
+    margin-bottom: 10px;
+}
+
+#technical_support ul p{
+    font-size: xx-small;
 }
 
 main{
