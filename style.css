@@ -180,6 +180,9 @@ nav ul li{
     border: #000000;
     border-top-style: solid;
     border-width: 1px;
+
+    height: 300px;
+    width: 250px;
 }
 
 #portfolio{
@@ -223,6 +226,9 @@ nav ul li{
     border: #000000;
     border-top-style: solid;
     border-width: 1px;
+
+    height: 300px;
+    width: 250px;
 }
 
 #shopping{
@@ -269,6 +275,9 @@ nav ul li{
     border: #000000;
     border-top-style: solid;
     border-width: 1px;
+
+    height: 300px;
+    width: 250px;
 }
 
 #contactblock{
@@ -313,6 +322,9 @@ nav ul li{
     border: #000000;
     border-top-style: solid;
     border-width: 1px;
+
+    height: 300px;
+    width: 250px;
 }
 
 #backgroundspacing{
@@ -715,6 +727,157 @@ nav ul li{
     background-color: #444444;
 }
 
+#contactsection{
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+
+    background-color: #84997E;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+#contactsection ul{
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+#contactsection ul li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contactsection h2{
+    color: #292F3B;
+    border-bottom: solid 2px #292F3B;
+}
+
+#contactsection h3{
+    color: #292F3B;
+}
+
+#contactsection a{
+    text-decoration: none;
+    color: #292F3B;
+
+    border-bottom: solid #292F3B;
+    border-bottom-width: 1px;
+}
+
+#contactsection a:hover{
+    color: #FFF;
+    border: white;
+    transition: 0.4s ease-in;
+}
+
+.contactlink{
+    text-decoration: none;
+    color: black;
+}
+
+.contactlink:hover{
+    color: #FFF;
+    transition: 0.4s ease-in;
+}
+
+#contactsection2{
+    grid-column: 5 / -2;
+    grid-row: 3 / 5;
+
+    background-color: #84997E;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+#contactsection2 h2{
+    color: #292F3B;
+    border-bottom: solid 2px #292F3B;
+}
+
+#contactsection2 h3{
+    color: #292F3B;
+}
+
+.fancytext{
+    color: white;
+}
+
+#contactform{
+    grid-column: 2 / 5;
+    grid-row: 4 / 5;
+
+    background-color: #84997E;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #292F3B;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+#contactform p{
+    text-decoration: none;
+    font-size: small;
+
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#contactform h2{
+    color: #292F3B;
+    border-bottom: solid 2px #292F3B;
+}
+
+#contactform h3{
+    color: #292F3B;
+}
+
+#contactform form{
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.submitformbutton{
+    text-align: center;
+    background-color: #7D89A0;
+    border: #292F3B 2px solid !important;
+}
+
+#contactform input{
+    border: #7D89A0 2px solid;
+}
+
+#contactform textarea{
+    border: #7D89A0 2px solid;
+}
+
+.submitformbutton:hover{
+    background-color: white;
+    transition: ease-in 0.4s;
+}
+
 #supportFRQ{
     grid-column: 5 / -2;
     grid-row: 3 / 4;
@@ -732,27 +895,24 @@ nav ul li{
 }
 
 #supportFRQ h2{
-    color: #000;
-    font-size: larger;
+    color: #292F3B;
     font-weight: 600;
 
     text-align: left;
 
-    border-bottom: #000;
+    border-bottom: #292F3B;
     border-bottom-style: solid;
     border-bottom-width: 3px;
 }
 
 #supportFRQ h3{
-    color: #000;
-    font-size: medium;
-    font-weight: 400;
+    color: #292F3B;
 
     text-align: left;
 }
 
 #supportFRQ p{
-    color: #444444;
+    color: #000;
     font-size: small;
     font-weight: 200;
 
@@ -760,7 +920,7 @@ nav ul li{
 }
 
 #supportFRQ a{
-    color: #444444;
+    color: #000;
 }
 
 #supportFRQ a:hover{
@@ -785,27 +945,24 @@ nav ul li{
 }
 
 #technical_support h2{
-    color: #000;
-    font-size: larger;
+    color: #292F3B;
     font-weight: 600;
 
     text-align: left;
 
-    border-bottom: #000;
+    border-bottom: #292F3B;
     border-bottom-style: solid;
     border-bottom-width: 3px;
 }
 
 #technical_support h3{
-    color: #000;
-    font-size: medium;
-    font-weight: 400;
+    color: #292F3B;
 
     text-align: left;
 }
 
 #technical_support p{
-    color: #444444;
+    color: #000;
     font-size: small;
     font-weight: 200;
 
@@ -813,7 +970,7 @@ nav ul li{
 }
 
 #technical_support a{
-    color: #444444;
+    color: #000;
 }
 
 #technical_support a:hover{
@@ -823,12 +980,13 @@ nav ul li{
 
 #technical_support h4{
     font-size: small;
+    color: #292F3B;
 
     margin-bottom: 10px;
 }
 
 #technical_support ul p{
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 main{

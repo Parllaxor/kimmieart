@@ -5,7 +5,7 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width = device-width, initial-scale: 1.0">
     <link rel = "stylesheet" href = style.css>
-    <title>Kimmieart :: Contact</title>
+    <title>Kimmiekunst :: Contact</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         </header>
 
         <div id = "headertitle">
-            <h1>My Art Projects!</h1>
+            <h1>Contact me!</h1>
         </div>
 
         <div id = "portfoliohero"></div>
@@ -31,13 +31,75 @@
             </ul>
         </nav>
 
-        <main>
-            
-        </main>
+        <div id = "contactsection">
+            <h2>Do you have any questions?</h2>
+            <h3>How to contact</h3>
+            <p>You can contact me in multiple different ways! Here are the simplest ways:</p>
+            <ul>
+                <li>
+                    <p>Email: <a href = "mailto:bumblee080@gmail.com">bumblee080@gmail.com</a><br></p>
+                </li>
+                <li>
+                    <p>Phone: <a href = "tel:+14176915731">(417)691-5731</a><br></p>
+                </li>
+            </ul>
+            <p>Try visiting the <a class = "contactlink" href = "support.html">Support</a> page if you have any questions, there many of the most commonly asked questions and concerns are answered!</p>
+        </div>
+
+        <div id = "contactsection2">
+            <h2>Want something custom made?</h2>
+            <p>I would love to help make something that would be peronsalized to you! I would love to paint or draw anything you'd like, in my own personal style!</p>
+            <h3>I can design something for a specific event if you would like! Some examples include:</h3>
+            <ul>
+                <li class = "fancytext">Birthdays</li>
+                <li class = "fancytext">Weddings</li>
+                <li class = "fancytext">Anniversaries</li>
+                <li>And so much more!</li>
+            </ul>
+            <p>Just give me enough time to get it finished and make it beautiful for your event!</p>
+
+            <h3>Price</h3>
+            <p>Depending on the time and difficulty of the project, price can vary. Typical projects will cost anywhere from $20-50, but some more difficult requests may cost upwards of $100. Just send me the request, and I will inform you of the cost before I start working on it, and won't stop until you're satisfied with what you got!</p>
+
+            <h3>Special requests</h3>
+            <p>Special requests such as shoe painting, woodburning projects, chess sets and others will take much longer, and will likely charge more than typical projects, but I am still happy to make them!</p>
+        </div>
+
+        <div id = "contactform">
+            <h2>Form</h2>
+            <h3>If you'd like to place a personalized order, please fill out this form!</h3>
+            <p>(* indicates required field)</p>
+            <form action="https://formsubmit.co/bumblee080@gmail.com" method = "POST">
+                <label for = "name">*Name:</label><br>
+                <input type = "text" id = "name" name = "name" style="width: 60%;" required><br><br>
+
+                <label for = "email">Email:</label><br>
+                <input type= "email" id = "email" name = "email" style="width: 60%;"><br><br>
+
+                <label for = "tel">*Phone Number:</label><br>
+                <input type = "tel" id = "tel" name = "tel"
+                placeholder = "123-456-7890"
+                style="width: 60%;" required><br><br>
+
+                    <label>*Preferred Contact Method:</label><br>
+                    <input type="radio" id="text" name="contact_method" value="text" required>
+                    <label for="text">Text</label><br>
+
+                    <input type="radio" id="call" name="contact_method" value="call">
+                    <label for="call">Call</label><br><br>
+
+                <label for = "request">*Request:</label><br>
+                <textarea id = "request" name = "request" rows = "4" cols = "20" style="width: 60%;" required></textarea><br><br>
+
+                <input type = "submit" value = "Submit" class = "submitformbutton"><br>
+            </form>
+        </div>
 
         <footer>
-            <p>Phone number</p>
-            <p>Email</p>
+            <address>
+            Email: <a href = "mailto:bumblee080@gmail.com">bumblee080@gmail.com</a><br>
+            Phone: <a href = "tel:+14176915731">(417)691-5731</a><br>
+            </address>
         </footer>
     
         <div id = "copyright">
