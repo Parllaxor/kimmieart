@@ -989,6 +989,132 @@ nav ul li{
     font-size: x-small;
 }
 
+#aboutpage1{
+    grid-column: 2 / 6;
+    grid-row: 5 / 6;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    height: 270px;
+}
+
+#aboutpage1 h2{
+    text-align: center;
+    border-bottom: solid 2px #000;
+}
+
+#aboutpage1 p{
+    font-size: small;
+}
+
+#aboutpage1 section{
+    padding-right: 30px;
+
+    border-right: solid 4px #292F3B;
+}
+
+#aboutpage1 img{
+    height: 250px;
+
+    border: solid 2px #292F3B;
+    border-radius: 10px;
+
+    margin-left: 25px;
+}
+
+#aboutpage2{
+    grid-column: 6 / 8;
+    grid-row: 5 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#aboutpage2 h2{
+    text-align: center;
+    border-bottom: solid 2px #000;
+}
+
+#aboutpage2 p{
+    font-size: small;
+}
+
+#aboutpage2 img{
+    height: 250px;
+
+    border: solid 2px #292F3B;
+    border-radius: 10px;
+}
+
+#aboutpage3{
+    grid-column: 2 / 6;
+    grid-row: 6 / 7;
+
+    background-color: #84997E;
+    border: #292F3B;
+    border-style: solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    height: 270px;
+}
+
+#aboutpage3 h2{
+    text-align: center;
+    border-bottom: solid 2px #000;
+}
+
+#aboutpage3 p{
+    font-size: small;
+}
+
+#aboutpage3 li{
+    font-size: small;
+}
+
+#aboutpage3 section{
+    padding-right: 30px;
+
+    border-right: solid 4px #292F3B;
+}
+
+#aboutpage3 img{
+    height: 250px;
+
+    border: solid 2px #292F3B;
+    border-radius: 10px;
+
+    margin-left: 25px;
+}
+
 main{
     grid-column: 1 / -1;
     grid-row: 7 / 8;
